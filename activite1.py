@@ -6,8 +6,9 @@ def chaineCar(chain):
             nbrMaj+=1
         else:
             nbrMin+=1
-    return(nbrMaj,nbrMin)
+    return nbrMaj,nbrMin
 
-chaine="BonJour"
-result=chaineCar(chaine)
-print(f"(nombre Majuscule,nombre Miniscule)={result}")
+chaine=input("entrez une chaine de caractère: ")
+maj,min=chaineCar(chaine)
+print(f"nombre Majuscule:{maj}")
+print(f"nombre Miniscule:{min}")
