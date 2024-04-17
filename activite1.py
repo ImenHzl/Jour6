@@ -1,3 +1,4 @@
+#:Activite1 sur chaine de caractere
 def chaineCar(chain):
     nbrMaj=0
     nbrMin=0
@@ -12,3 +13,4 @@ chaine=input("entrez une chaine de caractère: ")
 maj,min=chaineCar(chaine)
 print(f"nombre Majuscule:{maj}")
 print(f"nombre Miniscule:{min}")
+
